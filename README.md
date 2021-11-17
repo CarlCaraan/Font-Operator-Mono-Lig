@@ -1,1 +1,2 @@
-# Font-Operation-Mono-Lig
+# My Favorite Programming Font
+# Font Name: Operation Mono Lig
