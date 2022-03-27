@@ -1,2 +1,2 @@
 # Font Name: Operator Mono Lig
-# Vs Code Settings
+# VS Code Personal Settings: settings.json
