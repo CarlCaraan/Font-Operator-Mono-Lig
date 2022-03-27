@@ -1,0 +1,95 @@
+{   
+    //========= START PERSONAL CUSTOM SETTINGS =========//
+    // Font and theme
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontFamily": "Operator Mono Lig",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 15,
+    
+    // Cursor Color
+    "workbench.colorCustomizations": {
+        "editorCursor.foreground": "#FFA500",
+        "terminalCursor.foreground": "#FFA500"
+    },
+
+    // Fix vim indent using tab key
+    "vim.normalModeKeyBindings": [
+        { "before": ["<Tab>"], "commands": ["editor.action.indentLines"] },
+        { "before": ["<Shift+Tab>"], "commands": ["editor.action.outdentLines"] }
+    ],
+    "vim.visualModeKeyBindings": [
+        { "before": ["<Tab>"], "commands": ["editor.action.indentLines"] },
+        { "before": ["<Shift+Tab>"], "commands": ["editor.action.outdentLines"] }
+    ],
+
+    // Fix emmet
+    "emmet.showSuggestionsAsSnippets": true,
+    "files.associations": {
+        "*html": "html", 
+        "*njk": "html"
+    },
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+
+    // Fix zoom onscroll
+    "editor.mouseWheelZoom": true,
+
+    // Fix vim on paste
+    "vim.useSystemClipboard": true,
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": ["p"],
+            "commands": ["editor.action.clipboardPasteAction"]
+        }
+    ],
+    //========= END PERSONAL CUSTOM SETTINGS =========//
+
+    //========= START GLOBAL SETTINGS =========//
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb",
+        "*.db": "default"
+    },
+    "python.pythonPath": "C:\\Program Files\\Python39\\python.exe",
+    "mssql.connections": [
+        {
+            "server": "{{put-server-name-here}}",
+            "database": "{{put-database-name-here}}",
+            "user": "{{put-username-here}}",
+            "password": ""
+        }
+    ],
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.formatOnPaste": true,
+    "python.defaultInterpreterPath": "C:\\Program Files\\Python39\\python.exe",
+    "tabnine.experimentalAutoImports": true,
+    "sync.gist": "c8142ea4aa76da57667d7aa0477895e1",
+    "bracket-pair-colorizer-2.colorMode": "Independent",
+    "gitlens.advanced.messages": {
+        "suppressImproperWorkspaceCasingWarning": true,
+        "suppressLineUncommittedWarning": true
+    },
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "explorer.confirmDragAndDrop": false,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    },
+    "editor.lineHeight": 2,
+    "bracket-pair-colorizer-2.depreciation-notice": false,
+    "workbench.colorTheme": "One Dark Pro Italic",
+    "workbench.startupEditor": "none",
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python"
+    }
+    //========= END GLOBAL SETTINGS =========//
+}
