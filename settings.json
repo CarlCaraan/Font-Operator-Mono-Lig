@@ -16,7 +16,8 @@
     "titleBar.activeBackground": "#2D333B",
     "titleBar.activeForeground": "#ffffff",
     "sideBar.background": "#1C2128",
-    "sideBar.foreground": "#ffffff"
+    "sideBar.foreground": "#ffffff",
+    "terminal.background": "#0D1117",
   },
 
   // Fix vim indent using tab key
