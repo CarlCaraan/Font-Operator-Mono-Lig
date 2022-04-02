@@ -104,6 +104,12 @@
     "editor.defaultFormatter": "ms-python.python"
   },
   "workbench.colorTheme": "Dark+ with Italics",
-  "workbench.productIconTheme": "bootstrap-product-icons"
+  "workbench.productIconTheme": "bootstrap-product-icons",
+  "warmUp.changeTypingMode": "code snippets",
+  "warmUp.changeCount": "15",
+  "powermode.enabled": true,
+  "powermode.shake.enabled": false,
+  "editor.cursorBlinking": "phase",
+  "editor.cursorSmoothCaretAnimation": true
   //========= END GLOBAL SETTINGS =========//
 }
