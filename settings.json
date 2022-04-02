@@ -18,6 +18,11 @@
     "sideBar.background": "#1C2128",
     "sideBar.foreground": "#ffffff",
     "terminal.background": "#0D1117",
+    "editorSuggestWidget.background": "#0D1117",
+    "editorSuggestWidget.selectedForeground": "#40e0d0",
+    "editorSuggestWidget.selectedBackground": "#000000",
+    "editorSuggestWidget.highlightForeground": "#61DBFB",
+    "editorSuggestWidget.selectedIconForeground": "#00FF00"
   },
 
   // Fix vim indent using tab key
