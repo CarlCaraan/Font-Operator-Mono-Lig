@@ -62,7 +62,6 @@
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "workbench.editorAssociations": {
-    "*.ipynb": "jupyter.notebook.ipynb",
     "*.db": "default"
   },
   "editor.multiCursorModifier": "ctrlCmd",
@@ -70,7 +69,6 @@
   "python.defaultInterpreterPath": "C:\\Program Files\\Python39\\python.exe",
   "sync.gist": "c8142ea4aa76da57667d7aa0477895e1",
   "gitlens.advanced.messages": {
-    "suppressImproperWorkspaceCasingWarning": true,
     "suppressLineUncommittedWarning": true
   },
   "git.enableSmartCommit": true,
