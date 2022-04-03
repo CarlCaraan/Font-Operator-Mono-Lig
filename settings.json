@@ -65,21 +65,11 @@
     "*.ipynb": "jupyter.notebook.ipynb",
     "*.db": "default"
   },
-  "python.pythonPath": "C:\\Program Files\\Python39\\python.exe",
-  "mssql.connections": [
-    {
-      "server": "{{put-server-name-here}}",
-      "database": "{{put-database-name-here}}",
-      "user": "{{put-username-here}}",
-      "password": ""
-    }
-  ],
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.formatOnPaste": true,
   "python.defaultInterpreterPath": "C:\\Program Files\\Python39\\python.exe",
   "tabnine.experimentalAutoImports": true,
   "sync.gist": "c8142ea4aa76da57667d7aa0477895e1",
-  "bracket-pair-colorizer-2.colorMode": "Independent",
   "gitlens.advanced.messages": {
     "suppressImproperWorkspaceCasingWarning": true,
     "suppressLineUncommittedWarning": true
@@ -105,8 +95,6 @@
   },
   "workbench.colorTheme": "Dark+ with Italics",
   "workbench.productIconTheme": "developer-icons",
-  "warmUp.changeTypingMode": "code snippets",
-  "warmUp.changeCount": "15",
   "powermode.enabled": true,
   "powermode.shake.enabled": false,
   "editor.cursorBlinking": "phase",
