@@ -68,7 +68,6 @@
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.formatOnPaste": true,
   "python.defaultInterpreterPath": "C:\\Program Files\\Python39\\python.exe",
-  "tabnine.experimentalAutoImports": true,
   "sync.gist": "c8142ea4aa76da57667d7aa0477895e1",
   "gitlens.advanced.messages": {
     "suppressImproperWorkspaceCasingWarning": true,
@@ -87,14 +86,12 @@
     "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
   },
   "editor.lineHeight": 2,
-  "bracket-pair-colorizer-2.depreciation-notice": false,
   "workbench.startupEditor": "none",
   "terminal.integrated.defaultProfile.windows": "Command Prompt",
   "[python]": {
     "editor.defaultFormatter": "ms-python.python"
   },
   "workbench.colorTheme": "Dark+ with Italics",
-  "workbench.productIconTheme": "developer-icons",
   "powermode.enabled": true,
   "powermode.shake.enabled": false,
   "editor.cursorBlinking": "phase",
