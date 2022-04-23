@@ -93,6 +93,7 @@
   "powermode.enabled": true,
   "powermode.shake.enabled": false,
   "editor.cursorBlinking": "phase",
-  "editor.cursorSmoothCaretAnimation": true
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.formatOnSave": true
   //========= END GLOBAL SETTINGS =========//
 }
