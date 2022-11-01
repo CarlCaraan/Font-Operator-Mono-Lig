@@ -103,7 +103,7 @@
     {
       "format": "expanded",
       "extensionName": ".css",
-      "savePath": "./dist/css"
+      "savePath": "./assets/dist/css"
     }
   ]
   //========= END GLOBAL SETTINGS =========//
