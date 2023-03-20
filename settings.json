@@ -93,7 +93,7 @@
   "powermode.enabled": true,
   "powermode.shake.enabled": false,
   "editor.cursorBlinking": "phase",
-  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorSmoothCaretAnimation": "on",
   "editor.formatOnSave": true,
   "git.autofetch": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
@@ -105,6 +105,7 @@
       "extensionName": ".css",
       "savePath": "./assets/dist/css"
     }
-  ]
+  ],
+  "git.openRepositoryInParentFolders": "never"
   //========= END GLOBAL SETTINGS =========//
 }
