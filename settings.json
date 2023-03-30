@@ -60,6 +60,7 @@
 
   // Format on paste and vscode rulers
   "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
   "editor.rulers": [120],
 
   // Sass Settings
@@ -109,9 +110,9 @@
   "powermode.shake.enabled": false,
   "editor.cursorBlinking": "phase",
   "editor.cursorSmoothCaretAnimation": "on",
-  "editor.formatOnSave": true,
   "git.autofetch": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "git.openRepositoryInParentFolders": "never"
   //========= END GLOBAL SETTINGS =========//
 }
+
