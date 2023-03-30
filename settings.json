@@ -56,6 +56,21 @@
       "commands": ["editor.action.clipboardPasteAction"]
     }
   ],
+
+  // Format on paste and vscode rulers
+  "editor.formatOnPaste": true,
+  "editor.rulers": [120],
+
+  // Sass Settings
+  "liveSassCompile.settings.forceBaseDirectory": "",
+  "liveSassCompile.settings.formats": [
+    //This is Default
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "./assets/dist/css"
+    }
+  ],
   //========= END PERSONAL CUSTOM SETTINGS =========//
 
   //========= START GLOBAL SETTINGS =========//
@@ -65,7 +80,6 @@
     "*.db": "default"
   },
   "editor.multiCursorModifier": "ctrlCmd",
-  "editor.formatOnPaste": true,
   "python.defaultInterpreterPath": "C:\\Program Files\\Python39\\python.exe",
   "sync.gist": "c8142ea4aa76da57667d7aa0477895e1",
   "gitlens.advanced.messages": {
@@ -97,15 +111,6 @@
   "editor.formatOnSave": true,
   "git.autofetch": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "liveSassCompile.settings.forceBaseDirectory": "",
-  "liveSassCompile.settings.formats": [
-    //This is Default
-    {
-      "format": "expanded",
-      "extensionName": ".css",
-      "savePath": "./assets/dist/css"
-    }
-  ],
   "git.openRepositoryInParentFolders": "never"
   //========= END GLOBAL SETTINGS =========//
 }
