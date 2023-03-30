@@ -22,7 +22,8 @@
     "editorSuggestWidget.selectedForeground": "#40e0d0",
     "editorSuggestWidget.selectedBackground": "#000000",
     "editorSuggestWidget.highlightForeground": "#61DBFB",
-    "editorSuggestWidget.selectedIconForeground": "#00FF00"
+    "editorSuggestWidget.selectedIconForeground": "#00FF00",
+    "editorRuler.foreground": "#2D333B"
   },
 
   // Fix vim indent using tab key
@@ -111,6 +112,7 @@
   "editor.formatOnSave": true,
   "git.autofetch": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "git.openRepositoryInParentFolders": "never"
+  "git.openRepositoryInParentFolders": "never",
+  "genieai.openai.model": "gpt-4"
   //========= END GLOBAL SETTINGS =========//
 }
