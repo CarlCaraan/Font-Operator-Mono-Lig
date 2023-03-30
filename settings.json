@@ -112,7 +112,6 @@
   "editor.formatOnSave": true,
   "git.autofetch": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "git.openRepositoryInParentFolders": "never",
-  "genieai.openai.model": "gpt-4"
+  "git.openRepositoryInParentFolders": "never"
   //========= END GLOBAL SETTINGS =========//
 }
